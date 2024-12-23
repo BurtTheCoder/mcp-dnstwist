@@ -1,8 +1,10 @@
 # DNStwist MCP Server
+[![smithery badge](https://smithery.ai/badge/@burtthecoder/mcp-dnstwist)](https://smithery.ai/server/@burtthecoder/mcp-dnstwist)
 
 A Model Context Protocol (MCP) server for [dnstwist](https://github.com/elceef/dnstwist), a powerful DNS fuzzing tool that helps detect typosquatting, phishing, and corporate espionage. This server provides tools for analyzing domain permutations and identifying potentially malicious domains. It is designed to integrate seamlessly with MCP-compatible applications like [Claude Desktop](https://claude.ai).
 
 <a href="https://glama.ai/mcp/servers/it7izu3ufb"><img width="380" height="200" src="https://glama.ai/mcp/servers/it7izu3ufb/badge" alt="mcp-dnstwist MCP server" /></a>
+
 
 ## ⚠️ Warning
 
@@ -21,6 +23,15 @@ This tool is designed for legitimate security research purposes. Please:
 
 ## Quick Start
 
+### Installing via Smithery
+
+To install DNStwist for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@burtthecoder/mcp-dnstwist):
+
+```bash
+npx -y @smithery/cli install @burtthecoder/mcp-dnstwist --client claude
+```
+
+### Installing Manually
 1. Install Docker:
    - macOS: Install [Docker Desktop](https://www.docker.com/products/docker-desktop)
    - Linux: Follow the [Docker Engine installation guide](https://docs.docker.com/engine/install/)
